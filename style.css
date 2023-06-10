@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+form{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+form *{
+    margin-bottom: 20px;
+    padding: 3px;
+}
+form input{
+    width: 28%;
+    height: 50px;
+}
+form input:focus{
+    outline: none;
+}
+form textarea{
+    width: 28%;
+    height: 200px;
+    resize: none;
+}
+form button{
+    width: 28%;
+    height: 50px;
+}
+.red{
+    color: rebeccapurple;
+    height: 170px;
+}
+ul li{
+    width: 400px;
+    height: 50px;
+    border: 1px dashed black;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+ul li h1{
+    text-align: center;
+    border-bottom: 1px dashed black;
+    margin-bottom: 5px;
+    color: red;
+}
+ul li .red h1{
+    text-align: center;
+}
+.sil{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+}
+.fa-pen-nib{
+  font-size: 21px;
+  position: absolute;
+  left: 10%;
+  top: 13px;
+  color: rgb(4, 4, 4);
+}

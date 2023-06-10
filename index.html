@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoList</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <input class="name" type="text" placeholder="Course Name">
+        <textarea class="text" placeholder="Textarea" rows="10"></textarea>
+         <button onclick="tikla()">add</button>
+    </form>
+    <ul>
+    <li onclick="ac(this)">
+        <i class="fa-solid fa-pen-nib"></i>
+        <input class="sil" type="button" value="sil" onclick="remove(this)">
+        <h1>MilliTech</h1>
+        <p>Fəaliyyət göstərdiyimiz illər ərzində şirkətimiz müxtəlif müəssisə və təşkilatların əməkdaşları, eləcə də sıravi vətəndaşlar üçün sürətli, keyfiyyətli və sərfəli xidmət göstərərək müştərilərimizin rəğbətini qazanmışdır.</p>
+    </li>
+    <li onclick="ac(this)">
+        <i class="fa-solid fa-pen-nib"></i>
+        <input class="sil" type="button" value="sil" onclick="remove(this)">
+        <h1>NaNTech</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi a, consequatur enim ipsa totam, quisquam sunt officia tenetur doloremque minima numquam modi delectus possimus et sapiente fugit inventore odio? Dignissimos!.</p>
+    </li>
+    <li onclick="ac(this)">
+        <i  class="fa-solid fa-pen-nib"></i>
+        <input class="sil" type="button" value="sil" onclick="remove(this)">
+        <h1>Codeacademy</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt officia porro harum, ut, autem sit beatae id qui vitae at provident distinctio voluptatibus quaerat aut cupiditate minima sapiente accusantium!</p>
+    </li>
+
+    </ul>
+    <script src="custom.js"></script>
+</body>
+</html>
